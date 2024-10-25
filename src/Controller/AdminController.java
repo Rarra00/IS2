@@ -1,14 +1,13 @@
 package Controller;
 
-import Service.UserServicce;
-import service.UserService;
+import Service.UserService;
+import Service.UserService;
 
-public class AdminController{
+public class AdminController {
     private UserServicce userService;
 
-    public AdminController(){
+    public AdminController() {
         this.userService = new UserService();
     }
     //admin operationSSs
-    //gg
 }
